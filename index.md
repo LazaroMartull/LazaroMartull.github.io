@@ -1,3 +1,4 @@
+[Home](/) • [About Me](/about/) • [Projects](/projects/) • [Resume](/resume/) • [Contact](/contact/)
 ---
 title: "Lazaro Martull – Data Science & AI Portfolio"
 ---
