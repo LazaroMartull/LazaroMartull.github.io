@@ -114,7 +114,10 @@ history = model.fit(
     callbacks=[earlystopping]
 )
 
-🧩 My Role  
+---
+
+## 🧩 My Role  
+
 I contributed to:
 
 - Dataset organization & preprocessing  
@@ -124,7 +127,9 @@ I contributed to:
 - Writing model evaluation & interpretation  
 - Documenting the workflow  
 
-🛠 Tools & Technologies  
+---
+
+## 🛠 Tools & Technologies  
 
 - Python, TensorFlow/Keras  
 - ResNet50 pretrained weights  
@@ -132,15 +137,12 @@ I contributed to:
 - ISIC dermatology datasets  
 - Google Colab / Jupyter Notebook  
 
-📄 Full Report & Code  
+---
+
+## 📄 Full Report & Code  
 
 This project folder contains:
 
 - 📘 Final PDF report  
 - 🧠 Python training scripts  
 - 🧪 Model checkpoints / metrics (optional)  
-
-⭐ Summary  
-
-This project shows how transfer learning with ResNet50 can be applied to melanoma detection using dermatoscopic images.  
-Despite dataset imbalance, the model achieved strong accuracy and promising malignant detection performance.
