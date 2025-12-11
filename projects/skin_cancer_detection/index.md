@@ -5,6 +5,40 @@ The goal is to evaluate whether smartphone-quality images can support early dete
 
 ---
 
+## 🧩 My Role
+
+I contributed to:
+
+- Dataset organization & preprocessing  
+- Transfer-learning model design  
+- Hyperparameter tuning and training  
+- Plotting accuracy/loss curves  
+- Writing model evaluation & interpretation  
+- Documenting the workflow  
+
+---
+
+## 🛠 Tools & Technologies
+
+- Python, TensorFlow/Keras  
+- ResNet50 pretrained weights  
+- Matplotlib for visualization  
+- ISIC dermatology datasets  
+- Google Colab / Jupyter Notebook  
+
+---
+
+## 📄 Full Report & Code
+
+This project folder contains:
+
+- 📘 Final PDF Report  
+- 🧠 Python training scripts  
+- 🧪 Model checkpoints / metrics (optional)  
+- 📁 Dataset preprocessing utilities  
+
+---
+
 ## 🔍 Project Overview
 
 Skin cancer affects millions worldwide, and early detection dramatically improves survival rates.  
@@ -45,6 +79,8 @@ Preprocessing steps included:
 ## 🧪 Preprocessing, Architecture & Training Code
 
 ```python
+import tensorflow as tf
+
 height, width = 224, 224
 
 train_set = tf.keras.preprocessing.image_dataset_from_directory(
@@ -109,36 +145,61 @@ history = model.fit(
     epochs=100,
     callbacks=[earlystopping]
 )
+```
 
 ---
 
-## 🧩 My Role  
+## 📊 Results & Evaluation
 
-I contributed to:
+Key observations:
 
-- Dataset organization & preprocessing  
-- Transfer-learning model design  
-- Hyperparameter tuning and training  
-- Plotting accuracy/loss curves  
-- Writing model evaluation & interpretation  
-- Documenting the workflow  
+- **Strong benign classification performance**  
+- **Lower malignant recall**, likely due to class imbalance  
+- Training stabilized early because ResNet50 was frozen  
+- Adding more malignant samples or fine-tuning top ResNet layers could improve recall  
 
 ---
 
-## 🛠 Tools & Technologies  
+## 📈 Accuracy & Loss Curves
 
-- Python, TensorFlow/Keras  
-- ResNet50 pretrained weights  
-- Matplotlib for visualization  
-- ISIC dermatology datasets  
-- Google Colab / Jupyter Notebook  
+The training logs show:
+
+- Validation accuracy plateaued early  
+- Loss stabilized with little overfitting  
+- Early stopping correctly restored best weights  
+
+(Plots included in the project report.)
 
 ---
 
-## 📄 Full Report & Code  
+## 🚀 Future Improvements
 
-This project folder contains:
+To enhance model performance:
 
-- 📘 Final PDF report  
-- 🧠 Python training scripts  
-- 🧪 Model checkpoints / metrics (optional)  
+- Fine-tune upper ResNet50 layers  
+- Add more malignant images  
+- Test EfficientNet, MobileNet, or ViT models  
+- Use metadata (age, lesion area) for multimodal learning  
+- Convert to TensorFlow Lite for mobile deployment  
+
+---
+
+## 📦 Folder Structure
+
+```
+skin_cancer_detection/
+│── index.md
+│── report.pdf
+│── model_training.ipynb
+│── preprocessing_utils.py
+│── trained_model/
+│── images/
+│── README.md
+```
+
+---
+
+## 🎯 Summary
+
+This project demonstrates the potential of deep learning to support dermatologists and mobile health apps by providing early classification of skin lesions.  
+While not a substitute for clinical diagnosis, the model shows promising accuracy and provides a foundation for future medical AI research.
