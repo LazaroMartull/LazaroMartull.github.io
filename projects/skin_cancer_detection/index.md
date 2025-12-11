@@ -24,8 +24,6 @@ Using the **ISIC 2018 & 2024 datasets**, a transfer-learning pipeline was built 
 - **Malignant Recall:** 36.8%  
 - **Benign Recall:** strong and stable  
 
-These results show promise for real-world melanoma detection support tools.
-
 ---
 
 ## 📁 Dataset
@@ -41,8 +39,6 @@ Preprocessing steps included:
 - Normalize and batch  
 - Augment (flip, rotation, zoom)  
 - 80/20 train-validation split  
-
-This ensured a robust dataset while combating imbalance.
 
 ---
 
@@ -113,7 +109,6 @@ history = model.fit(
     epochs=100,
     callbacks=[earlystopping]
 )
-
 
 ---
 
