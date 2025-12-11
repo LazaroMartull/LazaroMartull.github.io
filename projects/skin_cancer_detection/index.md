@@ -24,6 +24,8 @@ Using the **ISIC 2018 & 2024 datasets**, a transfer-learning pipeline was built 
 - **Malignant Recall:** 36.8%  
 - **Benign Recall:** strong and stable  
 
+These results show promise for real-world melanoma detection support tools.
+
 ---
 
 ## 📁 Dataset
@@ -33,12 +35,14 @@ Images were gathered from:
 - **ISIC 2018 Challenge Dataset**  
 - **ISIC 2024 Archive**  
 
-Preprocessing steps:
+Preprocessing steps included:
 
 - Resize to 224×224  
 - Normalize and batch  
-- Augment (flip, rotate, zoom)  
-- 80/20 training-validation split  
+- Augment (flip, rotation, zoom)  
+- 80/20 train-validation split  
+
+This ensured a robust dataset while combating imbalance.
 
 ---
 
@@ -65,6 +69,8 @@ validation_set = tf.keras.preprocessing.image_dataset_from_directory(
     batch_size=4
 )
 
+# ------------------ Model Architecture ------------------
+
 base_model = tf.keras.applications.ResNet50(
     include_top=False,
     input_shape=(224, 224, 3),
@@ -83,6 +89,8 @@ model = tf.keras.Sequential([
     Dense(64, activation="relu"),
     Dense(2, activation="softmax")
 ])
+
+# ------------------ Training Configuration ------------------
 
 from tensorflow.keras.optimizers import AdamW
 from tensorflow.keras import callbacks
