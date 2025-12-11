@@ -7,42 +7,42 @@ The goal is to evaluate whether smartphone-quality images can support early dete
 
 ## 🔍 Project Overview
 
-Skin cancer affects millions of people worldwide, and early detection dramatically improves survival rates.  
-This project explores whether deep learning can help classify skin lesions using publicly available dermatoscopic images.
+Skin cancer affects millions worldwide, and early detection dramatically improves survival rates.  
+This project explores whether deep learning can help classify skin lesions using dermatoscopic images.
 
-Using the **ISIC 2018 & 2024 datasets**, a transfer-learning pipeline was developed using:
+Using the **ISIC 2018 & 2024 datasets**, a transfer-learning pipeline was built using:
 
-- **ResNet50** (frozen feature extractor)  
-- Custom **VGG-style convolutional layers**  
-- **Data augmentation** & **balanced training**  
-- Training on 224×224 RGB images  
+- **ResNet50** as a frozen feature extractor  
+- Custom VGG-style dense layers  
+- Data augmentation  
+- 224×224 RGB image preprocessing  
 
-📌 **Final performance (top model):**
+📌 **Final performance:**
 
 - **Accuracy:** 86.8%  
-- **Malignant Recall:** 36.8% (limited by class imbalance)  
 - **Malignant Precision:** 71.6%  
-- **Benign Precision/Recall:** strong and stable  
+- **Malignant Recall:** 36.8%  
+- **Benign Recall:** strong and stable  
 
 ---
 
 ## 📁 Dataset
 
-The model was trained on dermatoscopic lesion images from:
+Images were gathered from:
 
 - **ISIC 2018 Challenge Dataset**  
-- **ISIC Archive (2024)**  
+- **ISIC 2024 Archive**  
 
-Preprocessing included:
+Preprocessing steps:
 
-- Resizing to **224×224**  
-- RGB normalization  
-- Data augmentation (flip, rotation, zoom)  
-- Training/validation split of 80/20  
+- Resize to 224×224  
+- Normalize and batch  
+- Augment (flip, rotate, zoom)  
+- 80/20 training-validation split  
 
 ---
 
-## 🧪 Preprocessing & Augmentation
+## 🧪 Preprocessing, Architecture & Training Code
 
 ```python
 height, width = 224, 224
@@ -63,4 +63,45 @@ validation_set = tf.keras.preprocessing.image_dataset_from_directory(
     seed=42,
     image_size=(height, width),
     batch_size=4
+)
+
+base_model = tf.keras.applications.ResNet50(
+    include_top=False,
+    input_shape=(224, 224, 3),
+    weights="imagenet",
+    pooling="avg"
+)
+
+for layer in base_model.layers:
+    layer.trainable = False
+
+from tensorflow.keras.layers import Dense, Flatten
+
+model = tf.keras.Sequential([
+    base_model,
+    Flatten(),
+    Dense(64, activation="relu"),
+    Dense(2, activation="softmax")
+])
+
+from tensorflow.keras.optimizers import AdamW
+from tensorflow.keras import callbacks
+
+model.compile(
+    optimizer=AdamW(learning_rate=0.0001),
+    loss="sparse_categorical_crossentropy",
+    metrics=["accuracy"]
+)
+
+earlystopping = callbacks.EarlyStopping(
+    monitor="val_loss",
+    patience=5,
+    restore_best_weights=True
+)
+
+history = model.fit(
+    train_set,
+    validation_data=validation_set,
+    epochs=100,
+    callbacks=[earlystopping]
 )
