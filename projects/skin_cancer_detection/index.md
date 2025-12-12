@@ -32,10 +32,8 @@ I contributed to:
 
 This project folder contains:
 
-- 📘 Final PDF Report  
-- 🧠 Python training scripts  
-- 🧪 Model checkpoints / metrics (optional)  
-- 📁 Dataset preprocessing utilities  
+- 📘 [Final PDF Report](report.pdf)  
+- 🧠 `training_code.py` – clean, portfolio-ready training script  
 
 ---
 
