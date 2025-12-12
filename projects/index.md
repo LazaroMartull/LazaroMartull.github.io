@@ -1,25 +1,16 @@
 # Projects
 
-Explore my work across AI, Data Science, Statistics, and Software Engineering.
+Below is a selection of my academic and personal projects in **Data Science, Machine Learning, and Software Engineering**.  
+Additional projects will be added over time.
 
 ---
 
-## 🔹 AI / Software Engineering
-- [LeetTutor – AI Programming Tutor](ai/leettutor.md)
-- [Luna App – Pet Wellness AI App](ai/luna.md)
-- [Anniversary App](ai/anniversary_app.md)
+## 🧠 Data Science & Machine Learning
 
-## 🔹 Data Science & Machine Learning
-- [Twitter Sleep Analysis](datascience/twitter_sleep.md)
-- [Cancer Prediction](datascience/cancer_prediction.md)
-- [Crime Forecasting](datascience/crime_forecasting.md)
-- [Clean Water & Sanitation](datascience/clean_water_sanitation.md)
-- [Leading Causes of Death – Data Visualization](datascience/leading_causes_death.md)
+- **[Skin Cancer Detection Using Deep Learning (ResNet50)](skin_cancer_detection/)**  
+  Binary classification of skin lesions (benign vs malignant) using transfer learning with ResNet50 and ISIC dermatology datasets.
 
-## 🔹 Statistics (R)
-- [ANOVA Soil Study](statistics/anova.md)
-- [Hypothesis Testing Portfolio](statistics/hypothesis_testing.md)
+---
 
-## 🔹 Software Engineering
-- [Java Poker Game](engineering/poker_game.md)
-- [Web Applications](engineering/web_apps.md)
+📌 **Note:**  
+Each project includes documentation, code, results, and a detailed explanation of my contributions.
