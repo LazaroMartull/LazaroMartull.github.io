@@ -188,13 +188,9 @@ To enhance model performance:
 
 ```
 skin_cancer_detection/
-│── index.md
-│── report.pdf
-│── model_training.ipynb
-│── preprocessing_utils.py
-│── trained_model/
-│── images/
-│── README.md
+│── index.md            # Project write-up (this page)
+│── report.pdf          # Final project report
+│── training_code.py    # Clean training script (ResNet50 training)
 ```
 
 ---
