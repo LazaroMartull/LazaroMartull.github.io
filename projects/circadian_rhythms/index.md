@@ -1,23 +1,33 @@
-# Analyzing Circadian Rhythms Through Twitter Activity
+# Circadian Rhythm Analysis Using Twitter Activity
 
 ## Overview
-This project analyzes global activity patterns using Twitter timestamps as a proxy for daily sleep/activity rhythms. We explored how **time zone/location** and **occupation** relate to shifts in posting behavior.
+This project analyzes global activity patterns using Twitter timestamps as a proxy for daily sleep–wake rhythms. The objective was to examine how **geographic location (time zone)** and **occupation** relate to shifts in online activity that may indicate circadian rhythm disruption.
 
 ## Data
-Dataset: **jobs_sleepwalk (2020)** with **4.5M+ rows** and key fields:
-- characteristic (occupation / role)
-- utc_timestamp (time)
-- user_hash (anonymized user)
-- location
+**Dataset:** jobs_sleepwalk (2020)  
+**Scale:** 4.5M+ records
+
+Key fields:
+- `characteristic` — occupation / role
+- `utc_timestamp` — posting time (UTC)
+- `user_hash` — anonymized user identifier
+- `location` — user-reported location
 
 ## Methodology
-- Converted UTC timestamps into datetime features for hourly analysis
-- Cleaned location values
-- Visualized trends by occupation and location (bar charts, hourly trends, heatmap)
+- Converted UTC timestamps into hourly and temporal features
+- Cleaned and standardized location data
+- Filtered to top locations and occupations for interpretability
+- Visualized patterns using bar charts, hourly activity plots, and heatmaps
 
-## Tools
-Python, Pandas, Matplotlib/Seaborn/Plotly
+## Key Results
+- Posting behavior follows clear daily cycles that vary significantly by region
+- Certain occupations exhibit higher late-night activity patterns
+- Activity distributions reflect strong time-zone effects across locations
+
+## Tools & Technologies
+- Python  
+- Pandas  
+- Matplotlib / Seaborn / Plotly  
 
 ## Files
-- 📄 Report: `report.pdf`
-- 🧪 Notebook: `Project_Circadian_Rhythms.ipynb` (optional)
+- 📄 **Final Report:** [report.pdf](./report.pdf)
