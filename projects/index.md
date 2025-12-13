@@ -13,6 +13,9 @@ Additional projects will be added over time.
 - **[Circadian Rhythm Analysis Using Twitter Activity](circadian_rhythms/)**  
   Large-scale temporal data analysis of 4.5M+ Twitter records to study global circadian activity patterns across locations and occupations.
 
+- **[Tracking the Leading Causes of Death in the U.S. (1999–2017)](causes_of_death_visualization/)**  
+  Public health data visualization project analyzing national and state-level mortality trends using Python and R.
+
 ---
 
 📌 **Note:**  
