@@ -20,9 +20,9 @@ Key fields:
 - Visualized patterns using bar charts, hourly activity plots, and heatmaps
 
 ## Key Results
-- Posting behavior follows clear daily cycles that vary significantly by region
-- Certain occupations exhibit higher late-night activity patterns
-- Activity distributions reflect strong time-zone effects across locations
+- Analyzed over **4.5M Twitter records** to identify global circadian activity patterns
+- Observed distinct regional posting cycles consistent with time-zone effects
+- Identified occupation groups with elevated late-night activity behavior
 
 ## Tools & Technologies
 - Python  
