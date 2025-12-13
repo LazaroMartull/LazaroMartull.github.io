@@ -1,0 +1,73 @@
+-- R code for Chloropleth (1999 chart)
+
+# Load libraries needed
+library(usmap)
+library(ggplot2)
+library(dplyr)
+library(readr)
+
+# Loading dataset
+df <- read_csv("C:/Users/lazar/Documents/Data Visualization/Leading Causes Of Death NO United States AND NO All Causes.csv")
+
+# Filtering for 1999, Heart Disease
+df_1999 <- df %>%
+  filter(Year == 1999, `General Cause` == "Heart disease") %>%
+  group_by(State) %>%
+  summarise(AvgDeathRate = mean(`Age-adjusted Death Rate`, na.rm = TRUE)) %>%
+  rename(state = State)
+
+# setting the color range (vmin = 115, vmax = 350 for good contrast)
+plot_usmap(data = df_1999, values = "AvgDeathRate", color = "white") +
+  scale_fill_continuous(
+    low = "lightyellow",
+    high = "darkred",
+    name = "Deaths per 100,000 People",
+    limits = c(115, 350),     # 🔧 Set the scale range here
+    label = scales::number
+  ) +
+  labs(
+    title = "Age-Adjusted Death Rates from Heart Disease by State (1999)",
+    subtitle = paste0("Highest: ", df_1999$state[which.max(df_1999$AvgDeathRate)],
+                      " (", round(max(df_1999$AvgDeathRate), 1), " per 100,000 People)"),
+    caption = "Source: NCHS – Leading Causes of Death"
+  ) +
+  theme(legend.position = "right")
+  
+  
+  
+  
+  
+ -- R code for Chloropleth (2017 chart)((I used the same variable name 1999 just because it worked when I was testing them))
+
+# Load libraries needed
+library(usmap)
+library(ggplot2)
+library(dplyr)
+library(readr)
+
+# Loading dataset
+df <- read_csv("C:/Users/lazar/Documents/Data Visualization/Leading Causes Of Death NO United States AND NO All Causes.csv")
+
+# Filter for 2017, Heart Disease
+df_1999 <- df %>%
+  filter(Year == 2017, `General Cause` == "Heart disease") %>%
+  group_by(State) %>%
+  summarise(AvgDeathRate = mean(`Age-adjusted Death Rate`, na.rm = TRUE)) %>%
+  rename(state = State)
+
+# seting the color range (vmin = 115, vmax = 350 for good contrast)
+plot_usmap(data = df_1999, values = "AvgDeathRate", color = "white") +
+  scale_fill_continuous(
+    low = "lightyellow",
+    high = "darkred",
+    name = "Deaths per 100,000 People",
+    limits = c(115, 350),     # 🔧 Set the scale range here
+    label = scales::number
+  ) +
+  labs(
+    title = "Age-Adjusted Death Rates from Heart Disease by State (2017)",
+    subtitle = paste0("Highest: ", df_1999$state[which.max(df_1999$AvgDeathRate)],
+                      " (", round(max(df_1999$AvgDeathRate), 1), " per 100,000 People)"),
+    caption = "Source: NCHS – Leading Causes of Death"
+  ) +
+  theme(legend.position = "right")
