@@ -29,5 +29,9 @@ Key fields:
 - Pandas  
 - Matplotlib / Seaborn / Plotly  
 
+## Code & Analysis
+The full data preprocessing, exploratory analysis, and visualization workflow was implemented in Python using Pandas and visualization libraries. The notebook includes timestamp transformations, location filtering, and multiple plots used in the final report.
+
 ## Files
 - 📄 **Final Report:** [report.pdf](./report.pdf)
+- 🧪 **Analysis Notebook:** [Project_Circadian_Rhythms.ipynb](./Project_Circadian_Rhythms.ipynb)
