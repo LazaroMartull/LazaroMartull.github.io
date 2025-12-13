@@ -25,8 +25,10 @@ Key fields used: year, state, cause of death, total deaths, and age-adjusted dea
 - Python (Pandas, Matplotlib)
 - R (usmap, ggplot2, dplyr)
 
+## Code & Analysis
+The full analysis workflow—including cleaning, aggregation, and visualization—was implemented in Python and R. The notebook reproduces the figures and summary comparisons used in the final report, and the R script generates the state-level choropleth maps.
+
 ## Files
 - 📄 **Final Report:** [report.pdf](./report.pdf)
 - 🧪 **Python Notebook:** [analysis.ipynb](./analysis.ipynb)
 - 🗺️ **R Choropleth Code:** [choropleth_r_code.txt](./choropleth_r_code.txt)
-- 🎞️ **Slides:** [slides.pptx](./slides.pptx)
