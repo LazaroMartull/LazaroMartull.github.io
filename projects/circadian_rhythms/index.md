@@ -20,17 +20,20 @@ Key fields:
 - Visualized patterns using bar charts, hourly activity plots, and heatmaps
 
 ## Key Results
-- Analyzed over **4.5M Twitter records** to identify global circadian activity patterns
+- Analyzed **4.5M+** Twitter records to identify global circadian activity patterns
 - Observed distinct regional posting cycles consistent with time-zone effects
 - Identified occupation groups with elevated late-night activity behavior
 
 ## Tools & Technologies
-- Python  
-- Pandas  
-- Matplotlib / Seaborn / Plotly  
+- Python
+- Pandas
+- Matplotlib / Seaborn / Plotly
 
 ## Code & Analysis
 The full data preprocessing, exploratory analysis, and visualization workflow was implemented in Python using Pandas and visualization libraries. The notebook includes timestamp transformations, location filtering, and multiple plots used in the final report.
+
+## Limitations
+Twitter activity is a behavioral proxy and does not directly measure sleep duration or sleep quality.
 
 ## Files
 - 📄 **Final Report:** [report.pdf](./report.pdf)
