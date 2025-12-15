@@ -41,13 +41,13 @@ The goal was to analyze large water-access datasets efficiently and answer quest
 
 📄 **Final Report:** [report.pdf](./report.pdf)
 
-🧠 **MapReduce – Regional Analysis:**  
-- [mapper_sdg.py](./SDG_Region/mapper_sdg.py)  
-- [reducer_sdg.py](./SDG_Region/reducer_sdg.py)
+🧠 **MapReduce – Regional Analysis:**
+- [mapper_sdg.py](./mapper_sdg.py)
+- [reducer_sdg.py](./reducer_sdg.py)
 
-🧠 **MapReduce – Yearly Analysis:**  
-- [mapper_sdg_y.py](./SDG_Yearly/mapper_sdg_y.py)  
-- [reducer_sdg_y.py](./SDG_Yearly/reducer_sdg_y.py)
+🧠 **MapReduce – Yearly Analysis:**
+- [mapper_sdg_y.py](./mapper_sdg_y.py)
+- [reducer_sdg_y.py](./reducer_sdg_y.py)
 
-📊 **Analysis & Visuals:**  
+📊 **Analysis & Visuals:**
 - [clean_water_visuals.ipynb](./clean_water_visuals.ipynb)
