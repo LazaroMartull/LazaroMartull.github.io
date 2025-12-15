@@ -16,6 +16,9 @@ Additional projects will be added over time.
 - **[Tracking the Leading Causes of Death in the U.S. (1999–2017)](causes_of_death_visualization/)**  
   Public health data visualization project analyzing national and state-level mortality trends using Python and R.
 
+- **[Dallas Crime Data: Predicting Crime Locations Using Machine Learning](dallas_crime_location_prediction/)**  
+  Multi-class machine learning project predicting crime incident locations (premise) using Dallas Police open data, with model comparison and class-imbalance analysis.
+
 ---
 
 📌 **Note:**  
