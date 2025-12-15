@@ -38,6 +38,16 @@ The goal was to analyze large water-access datasets efficiently and answer quest
 - Connected technical outputs to real-world global development challenges
 
 ## Files
-📄 **Final Report:** [report.pdf](./report.pdf)  
-🧠 **MapReduce Code:** [mapper.py](./mapper.py), [reducer.py](./reducer.py)  
-📊 **Analysis & Visuals:** [clean_water_visuals.ipynb](./clean_water_visuals.ipynb)
+
+📄 **Final Report:** [report.pdf](./report.pdf)
+
+🧠 **MapReduce – Regional Analysis:**  
+- [mapper_sdg.py](./SDG_Region/mapper_sdg.py)  
+- [reducer_sdg.py](./SDG_Region/reducer_sdg.py)
+
+🧠 **MapReduce – Yearly Analysis:**  
+- [mapper_sdg_y.py](./SDG_Yearly/mapper_sdg_y.py)  
+- [reducer_sdg_y.py](./SDG_Yearly/reducer_sdg_y.py)
+
+📊 **Analysis & Visuals:**  
+- [clean_water_visuals.ipynb](./clean_water_visuals.ipynb)
