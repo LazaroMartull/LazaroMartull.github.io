@@ -35,5 +35,5 @@ NLP + ML analysis of sleep patterns across populations.
 ## 📄 Resume & Contact
 - **Email:** martulllazaro@gmail.com  
 - **GitHub:** https://github.com/LazaroMartull  
-- **LinkedIn:** *(add link here later)*
+- **LinkedIn:** https://www.linkedin.com/in/lazaro-martull/
 
