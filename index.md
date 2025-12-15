@@ -9,10 +9,10 @@ I build machine learning models, data pipelines, and AI-powered applications.
 
 ### 1. LeetTutor – AI-Powered Programming Tutor (Capstone)  
 AI-driven tutoring system built with Python, Flask, PostgreSQL, and Google Gemini to help students learn programming more effectively.  
-👉 [Read more](projects/leettutor/)
+🚧 *Project page coming soon.*
 
 ### 2. Clean Water & Sanitation – Big Data Forecasting  
-Developed a Big Data model using Hadoop and MapReduce to analyze and forecast global clean water access aligned with UN SDG 6.  
+Developed a Big Data pipeline using Hadoop and MapReduce to analyze and forecast global clean water access aligned with UN Sustainable Development Goal 6.  
 👉 [Read more](projects/clean_water_sanitation_big_data/)
 
 ### 3. Twitter Sleep & Circadian Rhythm Analysis  
