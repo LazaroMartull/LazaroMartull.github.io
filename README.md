@@ -1,30 +1,30 @@
-# LazaroMartull.github.io
+# Lazaro Martull — Portfolio
 
-This repository hosts my personal portfolio website, built with GitHub Pages.
+This repository contains the source code for my personal portfolio website, showcasing my work in **Data Science, Machine Learning, Big Data, and Systems Engineering**.
 
-🔗 **Live site:**  
+🌐 **Live Site:**  
 https://lazaromartull.github.io
 
 ---
 
-## 📂 What’s inside
+## 📂 Site Sections
 
-- **About** – Background and overview
-- **Projects** – Data Science, Machine Learning, and Software Engineering work
-- **Resume** – Academic and professional experience
+- **About** – Background, education, and core technical focus
+- **Projects** – Selected academic and personal projects across ML, data analysis, Big Data, and systems
+- **Resume** – Downloadable PDF with full experience and skills
 - **Contact** – Ways to get in touch
 
 ---
 
-## ⭐ Featured Project
+## 🔥 Highlighted Work
 
 - **Skin Cancer Detection Using Deep Learning (ResNet50)**  
-  A deep learning project using transfer learning on dermatology images to classify benign vs malignant skin lesions.  
-  👉 View it here:  
+  Deep learning project applying transfer learning to dermatology images for binary classification of skin lesions.  
+  👉 View project:  
   https://lazaromartull.github.io/projects/skin_cancer_detection/
 
 ---
 
 ## 🚀 Notes
 
-This portfolio is actively updated as I complete new projects.
+This portfolio is actively maintained and updated as new projects are completed and published.
