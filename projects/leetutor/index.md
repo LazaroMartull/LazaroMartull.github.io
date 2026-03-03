@@ -124,9 +124,10 @@ Planned enhancements include:
 ---
 
 ## 📁 Folder Structure
-projects/
-└── leetutor/
-└── index.md # Project write-up (this page)
+
+    projects/
+    └── leetutor/
+        └── index.md    # Project write-up (this page)
 
 ---
 
