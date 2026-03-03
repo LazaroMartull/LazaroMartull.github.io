@@ -1,19 +1,43 @@
-# Lazaro Martull — Personal Portfolio
+# Lazaro Martull — AI Engineer Portfolio
 
-This repository hosts my personal portfolio website, showcasing my work in **Data Science, Machine Learning, Big Data, and Software Engineering**.
+This repository hosts my personal portfolio website, showcasing my work in  
+**Artificial Intelligence, Large Language Models (LLMs), Machine Learning, Big Data, and Systems Engineering.**
 
 🔗 **Live site:**  
 https://lazaromartull.github.io
 
 ---
 
-## 📂 What’s Inside
+## 📚 Publication
+
+### LeafTutor: An AI Agent for Programming Assignment Tutoring  
+Co-author of an LLM-powered tutoring system delivering step-by-step programming guidance comparable to human tutors.
+
+🔬 arXiv:2601.02375  
+https://arxiv.org/abs/2601.02375
+
+---
+
+## 🔥 Featured Project
+
+### LeetTutor – AI-Powered Programming Tutor
+LLM-based tutoring agent built with Python, Flask, PostgreSQL, and modern large language model APIs to provide structured instructional guidance.
+
+👉 View project:  
+https://lazaromartull.github.io/projects/leetutor/
+
+---
+
+## 📂 Portfolio Sections
 
 - **About**  
   https://lazaromartull.github.io/about/
 
 - **Projects**  
   https://lazaromartull.github.io/projects/
+
+- **Publications**  
+  https://lazaromartull.github.io/publications/
 
 - **Resume**  
   https://lazaromartull.github.io/resume/
@@ -23,16 +47,23 @@ https://lazaromartull.github.io
 
 ---
 
-## ⭐ Featured Project
+## 🧠 Technical Focus Areas
 
-- **Skin Cancer Detection Using Deep Learning (ResNet50)**  
-  A deep learning project applying transfer learning on dermatology images to classify benign vs. malignant skin lesions.  
-
-  👉 View project:  
-  https://lazaromartull.github.io/projects/skin_cancer_detection/
+- Large Language Models (LLMs)
+- Applied AI Systems
+- Machine Learning & Deep Learning
+- Data Engineering & Pipelines
+- Big Data (Hadoop / MapReduce)
+- Cloud & IoT Systems
 
 ---
 
-## 🚀 Notes
+## 🚀 Status
 
-This portfolio is actively updated as new projects are completed and published.
+Currently seeking full-time roles in:
+- AI Engineer
+- Applied AI
+- Machine Learning Engineer
+- LLM Engineering
+
+This portfolio is actively updated as new projects and research are completed.
