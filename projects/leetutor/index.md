@@ -127,7 +127,8 @@ Planned enhancements include:
 
     projects/
     └── leetutor/
-        └── index.md    # Project write-up (this page)
+        ├── index.md              # Project write-up (this page)
+        └── leaf_tutor_paper.pdf  # Research paper (PDF)
 
 ---
 
