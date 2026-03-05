@@ -7,7 +7,7 @@ Below is a selection of my academic and personal projects across
 
 ## 🤖 LLM & Applied AI
 
-- **[LeetTutor – AI-Powered Programming Tutor](leetutor/)**  
+- **[LeafTutor – AI-Powered Programming Tutor](leaftutor/)**  
   LLM-based tutoring agent delivering structured, step-by-step programming guidance comparable to human tutors. Built with Python, Flask, PostgreSQL, and modern large language model APIs.  
   🔬 Published as: *LeafTutor: An AI Agent for Programming Assignment Tutoring* (arXiv:2601.02375)
 
