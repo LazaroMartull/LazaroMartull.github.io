@@ -1,6 +1,6 @@
-# LeetTutor – AI-Powered Programming Tutor
+# LeafTutor – AI-Powered Programming Tutor
 
-LeetTutor is an AI-driven tutoring system designed to provide structured, step-by-step programming guidance to post-secondary students.
+LeafTutor is an AI-driven tutoring system designed to provide structured, step-by-step programming guidance to post-secondary students.
 
 This system was evaluated through real programming assignments and published as:
 
@@ -38,7 +38,7 @@ The goal was to design an AI system capable of delivering **clear, structured, s
 
 ## 🧠 System Architecture
 
-LeetTutor integrates:
+LeafTutor integrates:
 
 - **Frontend →** Student query submission
 - **Backend (Flask) →** API handling and session management
@@ -82,7 +82,7 @@ This structured prompting significantly improved clarity and instructional usefu
 
 ## 📊 Evaluation & Results
 
-LeetTutor was evaluated using **real programming assignments**.
+LeafTutor was evaluated using **real programming assignments**.
 
 Key findings:
 
@@ -126,7 +126,7 @@ Planned enhancements include:
 ## 📁 Folder Structure
 
     projects/
-    └── leetutor/
+    └── leaftutor/
         ├── index.md              # Project write-up (this page)
         └── leaf_tutor_paper.pdf  # Research paper (PDF)
 
@@ -134,6 +134,6 @@ Planned enhancements include:
 
 ## 🎯 Summary
 
-LeetTutor demonstrates how large language models can be engineered to deliver structured, pedagogically sound programming guidance.
+LeafTutor demonstrates how large language models can be engineered to deliver structured, pedagogically sound programming guidance.
 
 By combining system design, backend engineering, prompt structuring, and real-world evaluation, this project bridges academic research and applied AI system development.
