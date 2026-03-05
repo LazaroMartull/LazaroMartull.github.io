@@ -11,7 +11,7 @@ I build machine learning models, scalable data pipelines, and LLM-powered AI app
 
 ## 🔥 Featured Projects
 
-### 1. [LeetTutor – AI-Powered Programming Tutor (Capstone)](/projects/leetutor/)
+### 1. [LeafTutor – AI-Powered Programming Tutor (Capstone)](/projects/leaftutor/)
 AI-driven tutoring system built with Python, Flask, PostgreSQL, and large language models to provide structured, step-by-step programming guidance comparable to human tutors.  
 🔬 Published as: *LeafTutor: An AI Agent for Programming Assignment Tutoring* (arXiv:2601.02375)
 
