@@ -20,11 +20,11 @@ https://arxiv.org/abs/2601.02375
 
 ## 🔥 Featured Project
 
-### LeetTutor – AI-Powered Programming Tutor
+### LeafTutor – AI-Powered Programming Tutor
 LLM-based tutoring agent built with Python, Flask, PostgreSQL, and modern large language model APIs to provide structured instructional guidance.
 
 👉 View project:  
-https://lazaromartull.github.io/projects/leetutor/
+https://lazaromartull.github.io/projects/leaftutor/
 
 ---
 
