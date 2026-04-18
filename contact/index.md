@@ -4,9 +4,6 @@ The best ways to reach me are listed below.
 
 ---
 
-📧 **Email**  
-martulllazaro@gmail.com
-
 💼 **LinkedIn**  
 https://www.linkedin.com/in/lazaro-martull/
 
