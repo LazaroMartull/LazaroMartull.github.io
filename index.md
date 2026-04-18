@@ -46,7 +46,6 @@ Large-scale temporal analysis of 4.5M+ Twitter records to study global circadian
 
 ## 📄 Resume & Contact
 
-- **Email:** martulllazaro@gmail.com  
 - **GitHub:** https://github.com/LazaroMartull  
 - **LinkedIn:** https://www.linkedin.com/in/lazaro-martull/  
 - **Currently available for full-time AI Engineer, Applied AI, and Machine Learning roles.**
