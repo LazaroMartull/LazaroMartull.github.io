@@ -39,9 +39,6 @@ https://lazaromartull.github.io/projects/leaftutor/
 - **Publications**  
   https://lazaromartull.github.io/publications/
 
-- **Resume**  
-  https://lazaromartull.github.io/resume/
-
 - **Contact**  
   https://lazaromartull.github.io/contact/
 
